@@ -1,0 +1,21 @@
+{
+  "name": "dnapp",
+  "version": "1.0.0",
+  "description": "Test application node server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Divya Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4"
+  }
+}
